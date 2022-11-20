@@ -26,18 +26,24 @@ paginate = 8
     url = "https://www.youtube.com/channel/UChOeb9V5uoAcx9YsO-q5vjw"
     weight = 4
 
+
 [params]
   author = "John Doe"
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-  menu_item_separator = " - "
+  description = "Thank you for finding Actively Engaged and welcome! The articles and videos you will find here cover a variety of topics in the areas of education, personal knowledge managent, executive functioning and technology. Click the link below find me at Medium.com"
+  menu_item_separator = " • "
+  
   [[params.social]]
-    icon = "github"
-    name = "Github"
-    url = "https://github.com/gohugoio"
+    icon = "medium"
+    name = "Medium"
+    url = "https://medium.com/@DrBradDavis"
+
   [[params.social]]
-    icon = "twitter"
-    name = "Twitter"
-    url = "https://twitter.com/gohugoio"
+    icon = "mail"
+    name = "Mail"
+    url = "mailto:drbmdav@gmail.com"
+
+  
+      
 
   # Default theme
   #[params.style]
